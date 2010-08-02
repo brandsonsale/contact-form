@@ -4,7 +4,7 @@ require File.dirname(__FILE__) + "/config/init"
 post '/questions' do 
   @question = Question.new(params[:question])
   @question.send
-  'ok'
+  redirect ENV['ON_SEND']
 end
 
 get '/' do
