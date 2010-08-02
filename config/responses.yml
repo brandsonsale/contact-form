@@ -1,0 +1,14 @@
+--- 
+:expidited: 
+  :name: Expedited
+  :cost_per_order: 18.90
+  :cost_per_pound: 2.00
+:standard: 
+  :excluded_states: HI AK PR
+  :name: Standard
+  :cost_per_pound: 0.87
+  :cost_per_order: 6.51
+:express: 
+  :name: Express 
+  :cost_per_order: 49.10
+  :cost_per_pound: 3.10
