@@ -1,7 +1,7 @@
 class Question
   
   @@pony = {
-    :to => ENV['SEND_TO']
+    :to => ENV['SEND_TO'],
     :via => :smtp, 
     :via_options => {
       :address        => "smtp.sendgrid.net",
